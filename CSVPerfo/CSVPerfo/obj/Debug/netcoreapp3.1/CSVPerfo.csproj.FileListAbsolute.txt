@@ -1,0 +1,13 @@
+C:\Users\Pierre\source\repos\CSVPerfo\CSVPerfo\bin\Debug\netcoreapp3.1\CSVPerfo.exe
+C:\Users\Pierre\source\repos\CSVPerfo\CSVPerfo\bin\Debug\netcoreapp3.1\CSVPerfo.deps.json
+C:\Users\Pierre\source\repos\CSVPerfo\CSVPerfo\bin\Debug\netcoreapp3.1\CSVPerfo.runtimeconfig.json
+C:\Users\Pierre\source\repos\CSVPerfo\CSVPerfo\bin\Debug\netcoreapp3.1\CSVPerfo.runtimeconfig.dev.json
+C:\Users\Pierre\source\repos\CSVPerfo\CSVPerfo\bin\Debug\netcoreapp3.1\CSVPerfo.dll
+C:\Users\Pierre\source\repos\CSVPerfo\CSVPerfo\bin\Debug\netcoreapp3.1\CSVPerfo.pdb
+C:\Users\Pierre\source\repos\CSVPerfo\CSVPerfo\obj\Debug\netcoreapp3.1\CSVPerfo.csprojAssemblyReference.cache
+C:\Users\Pierre\source\repos\CSVPerfo\CSVPerfo\obj\Debug\netcoreapp3.1\CSVPerfo.csproj.CoreCompileInputs.cache
+C:\Users\Pierre\source\repos\CSVPerfo\CSVPerfo\obj\Debug\netcoreapp3.1\CSVPerfo.AssemblyInfoInputs.cache
+C:\Users\Pierre\source\repos\CSVPerfo\CSVPerfo\obj\Debug\netcoreapp3.1\CSVPerfo.AssemblyInfo.cs
+C:\Users\Pierre\source\repos\CSVPerfo\CSVPerfo\obj\Debug\netcoreapp3.1\CSVPerfo.dll
+C:\Users\Pierre\source\repos\CSVPerfo\CSVPerfo\obj\Debug\netcoreapp3.1\CSVPerfo.pdb
+C:\Users\Pierre\source\repos\CSVPerfo\CSVPerfo\obj\Debug\netcoreapp3.1\CSVPerfo.genruntimeconfig.cache
