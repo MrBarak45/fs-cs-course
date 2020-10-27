@@ -1,0 +1,10 @@
+C:\Users\HomePC\source\repos\FYC-fsharp\FYC-fsharp\bin\Debug\netcoreapp2.1\FYC-fsharp.deps.json
+C:\Users\HomePC\source\repos\FYC-fsharp\FYC-fsharp\bin\Debug\netcoreapp2.1\FYC-fsharp.runtimeconfig.json
+C:\Users\HomePC\source\repos\FYC-fsharp\FYC-fsharp\bin\Debug\netcoreapp2.1\FYC-fsharp.runtimeconfig.dev.json
+C:\Users\HomePC\source\repos\FYC-fsharp\FYC-fsharp\bin\Debug\netcoreapp2.1\FYC-fsharp.dll
+C:\Users\HomePC\source\repos\FYC-fsharp\FYC-fsharp\bin\Debug\netcoreapp2.1\FYC-fsharp.pdb
+C:\Users\HomePC\source\repos\FYC-fsharp\FYC-fsharp\obj\Debug\netcoreapp2.1\FYC-fsharp.fsprojAssemblyReference.cache
+C:\Users\HomePC\source\repos\FYC-fsharp\FYC-fsharp\obj\Debug\netcoreapp2.1\FYC-fsharp.AssemblyInfoInputs.cache
+C:\Users\HomePC\source\repos\FYC-fsharp\FYC-fsharp\obj\Debug\netcoreapp2.1\FYC-fsharp.AssemblyInfo.fs
+C:\Users\HomePC\source\repos\FYC-fsharp\FYC-fsharp\obj\Debug\netcoreapp2.1\FYC-fsharp.dll
+C:\Users\HomePC\source\repos\FYC-fsharp\FYC-fsharp\obj\Debug\netcoreapp2.1\FYC-fsharp.pdb
