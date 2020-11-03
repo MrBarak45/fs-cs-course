@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "n0DmBHGuzo+U4NE3dBlq02/hzL+seg9vYgOKpVSNTKi3mfcME+vLebM8N4J5UDhq3dONx6F2/E+f2Hv61gyBIw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\petit\\source\\repos\\fsharpQueryXCL\\fsharpQueryXCL\\fsharpQueryXCL.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\petit\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512",
+    "C:\\Users\\petit\\.nuget\\packages\\fsharp.data\\3.3.3\\fsharp.data.3.3.3.nupkg.sha512",
+    "C:\\Users\\petit\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1000\\microsoft.office.interop.excel.15.0.4795.1000.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Le package 'Microsoft.Office.Interop.Excel 15.0.4795.1000' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet '.NETCoreApp,Version=v3.1'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "libraryId": "Microsoft.Office.Interop.Excel",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
