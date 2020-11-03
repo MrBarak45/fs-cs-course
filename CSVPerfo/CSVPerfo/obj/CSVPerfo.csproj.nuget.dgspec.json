@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pierre\\source\\repos\\CSVPerfo\\CSVPerfo\\CSVPerfo.csproj": {}
+    "C:\\Users\\Pierre\\Desktop\\fs-cs-course\\CSVPerfo\\CSVPerfo\\CSVPerfo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pierre\\source\\repos\\CSVPerfo\\CSVPerfo\\CSVPerfo.csproj": {
+    "C:\\Users\\Pierre\\Desktop\\fs-cs-course\\CSVPerfo\\CSVPerfo\\CSVPerfo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pierre\\source\\repos\\CSVPerfo\\CSVPerfo\\CSVPerfo.csproj",
+        "projectUniqueName": "C:\\Users\\Pierre\\Desktop\\fs-cs-course\\CSVPerfo\\CSVPerfo\\CSVPerfo.csproj",
         "projectName": "CSVPerfo",
-        "projectPath": "C:\\Users\\Pierre\\source\\repos\\CSVPerfo\\CSVPerfo\\CSVPerfo.csproj",
+        "projectPath": "C:\\Users\\Pierre\\Desktop\\fs-cs-course\\CSVPerfo\\CSVPerfo\\CSVPerfo.csproj",
         "packagesPath": "C:\\Users\\Pierre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pierre\\source\\repos\\CSVPerfo\\CSVPerfo\\obj\\",
+        "outputPath": "C:\\Users\\Pierre\\Desktop\\fs-cs-course\\CSVPerfo\\CSVPerfo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
