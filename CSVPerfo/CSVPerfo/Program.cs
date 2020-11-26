@@ -13,82 +13,50 @@ namespace CSVPerfo
         {
             string path = "..\\..\\..\\..\\Dataset\\cars.csv";
             string[] lines = System.IO.File.ReadAllLines(path);
-            List<string> carCountrys = new List<string>();
-            List<string> biggestCylinderUsCars = new List<string>();
-            List<string> lightestCars = new List<string>();
 
-            var index = 0;
-            foreach (string line in lines)
-            {
-                if (index > 0)
-                {
-                    var columns = line.Split(';');
 
-                    int carCylinder = Int32.Parse(columns[2]);
-                    var carCountry = columns[8];
-                    int carWeight = Int32.Parse(columns[5]);
+            //foreach(string country in Countrylister(lines))
+            //{
+            //    Console.WriteLine(country);
+            //    Console.WriteLine(getLightestCarAndBiggestCylindersByCountry(lines, country));
+            //}
 
-                    // Biggest US Cylinder car
-                    if (carCountry == "US" && carCylinder == maxCylinder(lines, "US"))
-                    {
-                        biggestCylinderUsCars.Add(line);
-                    }
-       
-                    if (!carCountrys.Contains(carCountry))
-                    {
-                        carCountrys.Add(carCountry);
-                    }
 
-                    foreach (string country in carCountrys)
-                    {
-                        if (carWeight == lightest(lines, country) && country == carCountry)
-                        {
-                            Console.WriteLine(line);
-                        }
-                    }
-                }
-                index++;
-            }
+            Console.WriteLine(getLightestCarAndBiggestCylindersByCountry(lines, "Europe"));
 
-            Console.WriteLine("\nlist of biggest Cylinder US Car");
-            foreach (string biggestCylinderUsCar in biggestCylinderUsCars)
-            {
-                Console.WriteLine(biggestCylinderUsCar);
-            }
 
         }
 
-        
-        private static int maxCylinder(string[] lines, string country)
+        private static string getLightestCarAndBiggestCylindersByCountry(string[] lines, string origin)
         {
-            List<int> carCylinders = new List<int>();
+            string res = "";
             foreach (string line in lines)
             {
-                var columns = line.Split(';');
-                if (columns[8] == country)
+                var columns = line.Split(',');
+
+                if (res == "")
                 {
-                    carCylinders.Add(Int32.Parse(columns[2]));
+                    Console.WriteLine(line);
+                    if (line.Contains(origin)) res = line;
+                    //if (columns[8].) res = line;
+                }
+                else
+                {
+                    if (Int32.Parse(columns[2]) >= Int32.Parse(res.Split(',')[2]) && Int32.Parse(columns[5]) < Int32.Parse(res.Split(',')[5])) res = line;
                 }
             }
-            int maxCarCylinder = carCylinders.Max();
-            return maxCarCylinder;
+            return res;
         }
 
-        private static int lightest(string[] lines, string country)
+        private static List<String> Countrylister(string[] lines)
         {
-            List<int> carWeights = new List<int>();
-            foreach (string line in lines)
+            List<String> res = new List<string>();
+            foreach (string line in lines.Skip(1))
             {
-                var columns = line.Split(';');
-                if (columns[8] == country)
-                {
-                    int carWeight = Int32.Parse(columns[5]);
-                    carWeights.Add(carWeight);
-                }
-
+                var columns = line.Split(',');
+                if (!res.Contains(columns[8])) res.Add(columns[8]);
             }
-            int lightestCarWeight = carWeights.Min();
-            return lightestCarWeight;
+            return res;
         }
     }
 }
