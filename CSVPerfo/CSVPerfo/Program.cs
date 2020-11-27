@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
 using System.IO;
-using System.Text;
 
 namespace CSVPerfo
 {
@@ -78,7 +77,7 @@ namespace CSVPerfo
             string res = "";
             foreach (string line in biggestCylindersFromCountry)
             {
-                if (int.Parse(line.Split(',')[5]) == minimumWeight) res = line;
+                if (float.Parse(line.Split(',')[5], CultureInfo.InvariantCulture.NumberFormat) == minimumWeight) res = line;
             }
             stopWatch.Stop();
             Console.WriteLine("La plus légère grosse cylindrée ayant pour origine : {0} a été trouvé en {1} secondes", origin, stopWatch.Elapsed.TotalSeconds);

@@ -24,3 +24,16 @@ C:\Users\Pierre\Desktop\fs-cs-course\CSVPerfo\CSVPerfo\obj\Debug\netcoreapp3.1\C
 C:\Users\Pierre\Desktop\fs-cs-course\CSVPerfo\CSVPerfo\obj\Debug\netcoreapp3.1\CSVPerfo.dll
 C:\Users\Pierre\Desktop\fs-cs-course\CSVPerfo\CSVPerfo\obj\Debug\netcoreapp3.1\CSVPerfo.pdb
 C:\Users\Pierre\Desktop\fs-cs-course\CSVPerfo\CSVPerfo\obj\Debug\netcoreapp3.1\CSVPerfo.genruntimeconfig.cache
+C:\Users\petit\fs-cs-course\CSVPerfo\CSVPerfo\bin\Debug\netcoreapp3.1\CSVPerfo.exe
+C:\Users\petit\fs-cs-course\CSVPerfo\CSVPerfo\bin\Debug\netcoreapp3.1\CSVPerfo.deps.json
+C:\Users\petit\fs-cs-course\CSVPerfo\CSVPerfo\bin\Debug\netcoreapp3.1\CSVPerfo.runtimeconfig.json
+C:\Users\petit\fs-cs-course\CSVPerfo\CSVPerfo\bin\Debug\netcoreapp3.1\CSVPerfo.runtimeconfig.dev.json
+C:\Users\petit\fs-cs-course\CSVPerfo\CSVPerfo\bin\Debug\netcoreapp3.1\CSVPerfo.dll
+C:\Users\petit\fs-cs-course\CSVPerfo\CSVPerfo\bin\Debug\netcoreapp3.1\CSVPerfo.pdb
+C:\Users\petit\fs-cs-course\CSVPerfo\CSVPerfo\obj\Debug\netcoreapp3.1\CSVPerfo.csprojAssemblyReference.cache
+C:\Users\petit\fs-cs-course\CSVPerfo\CSVPerfo\obj\Debug\netcoreapp3.1\CSVPerfo.AssemblyInfoInputs.cache
+C:\Users\petit\fs-cs-course\CSVPerfo\CSVPerfo\obj\Debug\netcoreapp3.1\CSVPerfo.AssemblyInfo.cs
+C:\Users\petit\fs-cs-course\CSVPerfo\CSVPerfo\obj\Debug\netcoreapp3.1\CSVPerfo.csproj.CoreCompileInputs.cache
+C:\Users\petit\fs-cs-course\CSVPerfo\CSVPerfo\obj\Debug\netcoreapp3.1\CSVPerfo.dll
+C:\Users\petit\fs-cs-course\CSVPerfo\CSVPerfo\obj\Debug\netcoreapp3.1\CSVPerfo.pdb
+C:\Users\petit\fs-cs-course\CSVPerfo\CSVPerfo\obj\Debug\netcoreapp3.1\CSVPerfo.genruntimeconfig.cache
