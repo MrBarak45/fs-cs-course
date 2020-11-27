@@ -8,24 +8,25 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Pierre\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\petit\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pierre\\Desktop\\fs-cs-course\\CSVPerfo\\CSVPerfo\\CSVPerfo.csproj",
+      "projectUniqueName": "C:\\Users\\petit\\fs-cs-course\\CSVPerfo\\CSVPerfo\\CSVPerfo.csproj",
       "projectName": "CSVPerfo",
-      "projectPath": "C:\\Users\\Pierre\\Desktop\\fs-cs-course\\CSVPerfo\\CSVPerfo\\CSVPerfo.csproj",
-      "packagesPath": "C:\\Users\\Pierre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pierre\\Desktop\\fs-cs-course\\CSVPerfo\\CSVPerfo\\obj\\",
+      "projectPath": "C:\\Users\\petit\\fs-cs-course\\CSVPerfo\\CSVPerfo\\CSVPerfo.csproj",
+      "packagesPath": "C:\\Users\\petit\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\petit\\fs-cs-course\\CSVPerfo\\CSVPerfo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Pierre\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\petit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -62,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

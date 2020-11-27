@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\CSVPerfo",
-    "\\CSVPerfo\\FSHARP",
-    "\\CSVPerfo\\FSHARP\\fsharpQueryXCL"
+    "\\FYC-fsharp"
   ],
-  "SelectedNode": "\\CSVPerfo\\FSHARP\\cars.csv",
+  "SelectedNode": "\\CSVPerfo\\CSVPerfo.sln",
   "PreviewInSolutionExplorer": false
 }
