@@ -14,12 +14,12 @@ namespace CSVPerfo
             stopWatch.Start();
             string path = "..\\..\\..\\..\\Dataset\\cars.csv";
             string[] lines = File.ReadAllLines(path);
-            //RemoveDuplicates(lines);
+            RemoveDuplicates(lines);
 
-            foreach (string country in Countrylister(lines))
-            {
-                Console.WriteLine(GetLightestCarAndBiggestCylindersByCountry(lines, country));
-            }
+            ////foreach (string country in Countrylister(lines))
+            //{
+            //    Console.WriteLine(GetLightestCarAndBiggestCylindersByCountry(lines, country));
+            //}
             stopWatch.Stop();
             Console.WriteLine("L'opération a été effectué en {0} secondes", stopWatch.Elapsed.TotalSeconds);
         }

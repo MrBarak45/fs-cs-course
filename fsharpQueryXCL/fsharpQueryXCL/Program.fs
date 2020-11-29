@@ -58,13 +58,15 @@ let getLightestCarsAndBiggestCylindersForEachCountry origins (db:car)=
     printfn "L'opération a été effectuée en %f s"  stopwatch.Elapsed.TotalSeconds
     res
 
-let printline(car) = sprintf"%A" car
+let carToStr (car:car.Row) = 
+    let res = car.Car.ToString()+","+car.MPG.ToString()+","+car.Cylinders.ToString()+","+car.Displacement.ToString()+","+car.Horsepower.ToString()+","+car.Weight.ToString()+","+car.Acceleration.ToString()+","+car.Model.ToString()+","+car.Origin
+    res
 
 let deleteDuplicates (db:car) =
     let stopwatch = System.Diagnostics.Stopwatch.StartNew()
     let res = db.Rows |> Seq.distinct 
     let path = "C:\\Users\\petit\\OneDrive\\Bureau\\Nouveau dossier (2)\\noDuplicateFSharp.csv"
-    File.WriteAllLines(path, res |> Seq.map printline) |> ignore
+    File.WriteAllLines(path, res |> Seq.map carToStr) |> ignore
     stopwatch.Stop()
     printfn "Les doublons ont été supprimés en %f s"  stopwatch.Elapsed.TotalSeconds
 
