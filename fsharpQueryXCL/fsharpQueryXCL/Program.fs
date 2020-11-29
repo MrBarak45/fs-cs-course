@@ -1,5 +1,6 @@
 ﻿// Learn more about F# at http://fsharp.org
 open FSharp.Data
+open System.IO
 
 type car = CsvProvider<"cars.csv", HasHeaders=true>
 
@@ -57,10 +58,21 @@ let getLightestCarsAndBiggestCylindersForEachCountry origins (db:car)=
     printfn "L'opération a été effectuée en %f s"  stopwatch.Elapsed.TotalSeconds
     res
 
+let printline(car) = sprintf"%A" car
+
+let deleteDuplicates (db:car) =
+    let stopwatch = System.Diagnostics.Stopwatch.StartNew()
+    let res = db.Rows |> Seq.distinct 
+    let path = "C:\\Users\\petit\\OneDrive\\Bureau\\Nouveau dossier (2)\\noDuplicateFSharp.csv"
+    File.WriteAllLines(path, res |> Seq.map printline) |> ignore
+    stopwatch.Stop()
+    printfn "Les doublons ont été supprimés en %f s"  stopwatch.Elapsed.TotalSeconds
+
 [<EntryPoint>]
 let main argv =
     let db = car.GetSample()
-    let Cars = getLightestCarsAndBiggestCylindersForEachCountry (getOrigins db |> Seq.toList) db
-    printfn "%A" (Cars)
+    //let Cars = getLightestCarsAndBiggestCylindersForEachCountry (getOrigins db |> Seq.toList) db
+    //printfn "%A" (Cars)
+    deleteDuplicates db
     0 // return an integer exit code
     
