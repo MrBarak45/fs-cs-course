@@ -14,23 +14,27 @@ namespace CSVPerfo
             stopWatch.Start();
             string path = "..\\..\\..\\..\\Dataset\\cars.csv";
             string[] lines = File.ReadAllLines(path);
-            RemoveDuplicates(lines);
+            DeleteDuplicates(lines);
 
-            ////foreach (string country in Countrylister(lines))
-            //{
-            //    Console.WriteLine(GetLightestCarAndBiggestCylindersByCountry(lines, country));
-            //}
+            foreach (string country in GetOrigins(lines))
+            {
+                Console.WriteLine(GetLightestCarAndBiggestCylindersByCountry(lines, country));
+            }
             stopWatch.Stop();
             Console.WriteLine("L'opération a été effectué en {0} secondes", stopWatch.Elapsed.TotalSeconds);
         }
 
-        private static List<string> GetCarsFromCountry(string[] lines, string origin)
+        private static List<string> GetByOrigin(string[] lines, string origin)
         {
+            Stopwatch stopWatch = new Stopwatch();
+            stopWatch.Start();
             List<string> carsFromCountry = new List<string>();
             foreach (string line in lines)
             {
                 if (line.Split(',')[8].Equals(origin)) carsFromCountry.Add(line);
             }
+            stopWatch.Stop();
+            Console.WriteLine("La liste de toutes les voitures ayant pour origine : {0} a été trouvée en {1} secondes", origin, stopWatch.Elapsed.TotalSeconds);
             return carsFromCountry;
         }
 
@@ -66,7 +70,7 @@ namespace CSVPerfo
         {
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
-            var carsFromCountry = GetCarsFromCountry(lines, origin);
+            var carsFromCountry = GetByOrigin(lines, origin);
             int maxCylinder = GetBiggestFromArg(carsFromCountry, 2);
             List<string> biggestCylindersFromCountry = new List<string>();
             foreach (string line in carsFromCountry)
@@ -84,7 +88,7 @@ namespace CSVPerfo
             return res;
         }
 
-        private static List<string> Countrylister(string[] lines)
+        private static List<string> GetOrigins(string[] lines)
         {
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
@@ -101,7 +105,7 @@ namespace CSVPerfo
             return res;
         }
 
-        private static void RemoveDuplicates(string[] lines)
+        private static void DeleteDuplicates(string[] lines)
         {
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();

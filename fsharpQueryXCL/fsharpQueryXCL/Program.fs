@@ -1,5 +1,4 @@
-﻿// Learn more about F# at http://fsharp.org
-open FSharp.Data
+﻿open FSharp.Data
 open System.IO
 
 type car = CsvProvider<"cars.csv", HasHeaders=true>
