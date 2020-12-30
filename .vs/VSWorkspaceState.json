@@ -1,12 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CSVPerfo",
-    "\\CSVPerfo\\Dataset",
-    "\\fsharpQueryXCL",
-    "\\fsharpQueryXCL\\fsharpQueryXCL",
-    "\\FYC-fsharp"
+    "\\FS-CSProject"
   ],
-  "SelectedNode": "\\fsharpQueryXCL\\fsharpQueryXCL.sln",
+  "SelectedNode": "\\FS-CSProject",
   "PreviewInSolutionExplorer": false
 }

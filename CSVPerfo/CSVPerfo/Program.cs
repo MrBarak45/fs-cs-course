@@ -15,7 +15,6 @@ namespace CSVPerfo
             string path = "..\\..\\..\\..\\Dataset\\cars.csv";
             string[] lines = File.ReadAllLines(path);
             DeleteDuplicates(lines);
-
             foreach (string country in GetOrigins(lines))
             {
                 Console.WriteLine(GetLightestCarAndBiggestCylindersByCountry(lines, country));

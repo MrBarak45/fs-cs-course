@@ -72,8 +72,8 @@ let deleteDuplicates (db:car) =
 [<EntryPoint>]
 let main argv =
     let db = car.GetSample()
-    //let Cars = getLightestCarsAndBiggestCylindersForEachCountry (getOrigins db |> Seq.toList) db
-    //printfn "%A" (Cars)
     deleteDuplicates db
+    let Cars = getLightestCarsAndBiggestCylindersForEachCountry (getOrigins db |> Seq.toList) db
+    printfn "%A" (Cars)
     0 // return an integer exit code
     
