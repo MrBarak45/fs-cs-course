@@ -3,6 +3,10 @@ open System
 
 type people = CsvProvider<"Members.csv", HasHeaders=true>
 
+let getData (path:string) =
+    let res = people.Load(path)
+    res
+
 let getStates (db:people) =
     let res =
         db.Rows
@@ -52,7 +56,7 @@ let getResults (db:people) states age=
 [<EntryPoint>]
 let main argv =
     let stopwatch = System.Diagnostics.Stopwatch.StartNew()
-    let db = people.GetSample()
+    let db = getData "../../../Members.csv"
     let states = getStates db
     let res = getResults db (states|>Seq.toList) (decimal 20)
     stopwatch.Stop()
