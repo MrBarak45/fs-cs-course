@@ -1,20 +1,18 @@
-﻿using System.Runtime.Serialization;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace FS_CSProject
 {
-    [DataContract]
-    public class ContactDetails
+    public class EmployeeContactDetails
     {
-        [DataMember]
+        [Key]
+        public int ContactDetailsId { get; set; }
+
         public string Username { get; set; }
 
-        [DataMember]
         public string Password { get; set; }
 
-        [DataMember]
         public string Email { get; set; }
 
-        [DataMember]
         public string PhoneNumber { get; set; }
     }
 }
