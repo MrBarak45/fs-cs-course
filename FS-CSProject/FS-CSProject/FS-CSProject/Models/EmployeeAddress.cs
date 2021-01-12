@@ -1,20 +1,20 @@
-﻿using System.Runtime.Serialization;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace FS_CSProject
 {
-    [DataContract]
-    public class Address
+    public class EmployeeAddress
     {
-        [DataMember]
+        [Key]
+        public int AddressId { get; set; }
+
         public string PlaceName { get; set; }
 
-        [DataMember]
         public string Country { get; set; }
-        
-        [DataMember]
+
         public string City { get; set; }
 
-        [DataMember]
         public string State { get; set; }
+
+        public int EmploymentId { get; set; }
     }
 }
